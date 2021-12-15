@@ -12,6 +12,7 @@ export class VendingController {
 
     moneyMaka() {
         vendingService.moneyMaka()
+
     }
 
 

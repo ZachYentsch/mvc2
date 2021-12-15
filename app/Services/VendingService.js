@@ -12,7 +12,9 @@ class VendingService {
     }
     moneyMaka() {
         let money = ProxyState.total
+        let Template = ''
         money++
+        Template += ``
         document.getElementById('moola').innerHTML = Template
     }
 };
